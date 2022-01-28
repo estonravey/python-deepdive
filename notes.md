@@ -76,3 +76,25 @@ __my_var__
 - system defined names
 - special meaning for interpreter
 - stick to predefined ones
+    __init__
+    - initialize a class
+
+## Other Naming Conventions
+Packages    short, all lower case, no underscores
+    - utilities
+
+Modules     short, all lower case, can have underscores
+    - db_utils
+
+Classes     CapWOrds (upper cammel case)
+    - BankAccount
+
+Functions   lowercase, underscore (snake case)
+    - open_account
+
+Varialbes   lower case, snake case
+    - account_id
+
+Constants   all upper, underscore
+    - MIN_APR
+
